@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
+:root{
+    --light:#D9D9D9;
+    --white:#FFFFFF;
+    --blue:#284B63;
+    --green-blue:#3C6E71;
+    --dark:#353535;
+}
+body,h1,h2,h3,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--light);
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:2rem;
+    margin:1rem;
+    justify-content: space-around;
+    /* background-color: var(--white); */
+    /* padding: 1rem; */
+}
+.item{
+    background-color: var(--white);
+    border-radius: 5px;
+    display: inline-block;
+    width: 15rem;
+    height:100%;
+    padding: 1rem;  
+    text-align: center; 
+    align-items: stretch; 
+    justify-content:space-around;
+}
+.emoji1{
+    background-color: var(--white);
+    font-size: 200%;
+}
+.emoji2{
+    background-color: var(--white);
+}
+.NavBar{
+    text-align: center;
+}
+.Input{
+    margin:1rem 33rem;
+    width:15rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid black;
+   
+}
+#result{
+    /* text-align: center; */
+   
+}
